@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="Win32"/>
+	</Configurations>
+	<Project Path="codemp/botlib.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4ee220c1-7b6c-37f1-a34b-497cf3295dda">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="lib/jpeg-9a/bundled_libjpeg.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e5e9de56-2263-345a-8c1c-b35e2fd9dbcd">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="lib/libpng/bundled_libpng.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="78f21436-d230-39fd-b226-271575cb0573">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="lib/minizip/bundled_minizip.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ab52c127-f2cb-3d67-a461-e822bf23a59a">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="lib/zlib/bundled_zlib.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2e1102d3-b1ed-3dce-a868-2f02bdf0a763">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="codemp/cgame/cgamex86.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="dd5a57c0-8b91-3b56-8e4f-886e510ccd26">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="codemp/rd-rend2/compact_glsl.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5b75bb53-4b3c-3964-883d-d4d8ebc4e203">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="code/game/jagamex86.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ebc3cdb1-2321-3d49-a55a-bc06b5895d2d">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="codemp/game/jampgamex86.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4bf2bbbf-f808-3ac9-ade6-1c2440e4de27">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="codemp/openjk.x86.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a6b65b6f-60bd-35b3-a8d9-7444f12d8296">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="codemp/botlib.vcxproj"/>
+		<BuildDependency Project="lib/minizip/bundled_minizip.vcxproj"/>
+		<BuildDependency Project="lib/zlib/bundled_zlib.vcxproj"/>
+	</Project>
+	<Project Path="code/openjk_sp.x86.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9640b58e-dc8b-3c6f-8cc1-8b67c422ea35">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="lib/minizip/bundled_minizip.vcxproj"/>
+		<BuildDependency Project="lib/zlib/bundled_zlib.vcxproj"/>
+	</Project>
+	<Project Path="codemp/openjkded.x86.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9ad8d968-31c2-378d-bb27-8fc69d652749">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="codemp/botlib.vcxproj"/>
+		<BuildDependency Project="lib/minizip/bundled_minizip.vcxproj"/>
+		<BuildDependency Project="lib/zlib/bundled_zlib.vcxproj"/>
+	</Project>
+	<Project Path="codemp/rd-rend2/rd-rend2_x86.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a0b78ef0-48bf-320d-a0df-002e0299d5a4">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="lib/jpeg-9a/bundled_libjpeg.vcxproj"/>
+		<BuildDependency Project="lib/libpng/bundled_libpng.vcxproj"/>
+		<BuildDependency Project="lib/minizip/bundled_minizip.vcxproj"/>
+		<BuildDependency Project="lib/zlib/bundled_zlib.vcxproj"/>
+		<BuildDependency Project="codemp/rd-rend2/compact_glsl.vcxproj"/>
+	</Project>
+	<Project Path="codemp/rd-vanilla/rd-vanilla_x86.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="af85fdb4-803d-399c-a5a6-997cd081ca37">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="lib/jpeg-9a/bundled_libjpeg.vcxproj"/>
+		<BuildDependency Project="lib/libpng/bundled_libpng.vcxproj"/>
+		<BuildDependency Project="lib/minizip/bundled_minizip.vcxproj"/>
+		<BuildDependency Project="lib/zlib/bundled_zlib.vcxproj"/>
+	</Project>
+	<Project Path="code/rd-vanilla/rdsp-vanilla_x86.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b65bb30a-c6cf-32f9-8605-35785f782faf">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="lib/jpeg-9a/bundled_libjpeg.vcxproj"/>
+		<BuildDependency Project="lib/libpng/bundled_libpng.vcxproj"/>
+		<BuildDependency Project="lib/minizip/bundled_minizip.vcxproj"/>
+		<BuildDependency Project="lib/zlib/bundled_zlib.vcxproj"/>
+	</Project>
+	<Project Path="codemp/ui/uix86.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d98afbb3-79bc-3185-89f5-afb450d6d434">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3bb4aeaa-f873-3904-86b4-bb0b0021317b" DefaultStartup="true">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="codemp/botlib.vcxproj"/>
+			<BuildDependency Project="lib/jpeg-9a/bundled_libjpeg.vcxproj"/>
+			<BuildDependency Project="lib/libpng/bundled_libpng.vcxproj"/>
+			<BuildDependency Project="lib/minizip/bundled_minizip.vcxproj"/>
+			<BuildDependency Project="lib/zlib/bundled_zlib.vcxproj"/>
+			<BuildDependency Project="codemp/cgame/cgamex86.vcxproj"/>
+			<BuildDependency Project="codemp/rd-rend2/compact_glsl.vcxproj"/>
+			<BuildDependency Project="code/game/jagamex86.vcxproj"/>
+			<BuildDependency Project="codemp/game/jampgamex86.vcxproj"/>
+			<BuildDependency Project="codemp/openjk.x86.vcxproj"/>
+			<BuildDependency Project="code/openjk_sp.x86.vcxproj"/>
+			<BuildDependency Project="codemp/openjkded.x86.vcxproj"/>
+			<BuildDependency Project="codemp/rd-rend2/rd-rend2_x86.vcxproj"/>
+			<BuildDependency Project="codemp/rd-vanilla/rd-vanilla_x86.vcxproj"/>
+			<BuildDependency Project="code/rd-vanilla/rdsp-vanilla_x86.vcxproj"/>
+			<BuildDependency Project="codemp/ui/uix86.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="55ea6c28-39fe-394c-a9de-cf499a49b868">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="PACKAGE.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3277c069-103e-3d6f-8f18-c151d2d67d0d">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cf6d384e-f2a0-33ce-aa21-dcb9a281a954"/>
+	</Folder>
+</Solution>

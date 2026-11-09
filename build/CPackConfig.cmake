@@ -1,0 +1,122 @@
+# This file will be configured to contain variables for CPack. These variables
+# should be set in the CMake list file of the project before CPack module is
+# included. The list of available CPACK_xxx variables and their associated
+# documentation may be obtained using
+#  cpack --help-variable-list
+#
+# Some variables are common to all generators (e.g. CPACK_PACKAGE_NAME)
+# and some are specific to a generator
+# (e.g. CPACK_NSIS_EXTRA_INSTALL_COMMANDS). The generator specific variables
+# usually begin with CPACK_<GENNAME>_xxxx.
+
+
+set(CPACK_ARCHIVE_COMPONENT_INSTALL "ON")
+set(CPACK_ARCHIVE_GID "-1")
+set(CPACK_ARCHIVE_UID "-1")
+set(CPACK_BINARY_7Z "OFF")
+set(CPACK_BINARY_IFW "OFF")
+set(CPACK_BINARY_INNOSETUP "OFF")
+set(CPACK_BINARY_NSIS "ON")
+set(CPACK_BINARY_NUGET "OFF")
+set(CPACK_BINARY_WIX "OFF")
+set(CPACK_BINARY_ZIP "ON")
+set(CPACK_BUILD_SOURCE_DIRS "D:/Game/OneDayCode/OpenJK;D:/game/onedaycode/openjk/build")
+set(CPACK_CMAKE_GENERATOR "Visual Studio 18 2026")
+set(CPACK_COMPONENTS_ALL "JKAMPCore;JKAMPClient;JKAMPServer;JKASPClient")
+set(CPACK_COMPONENTS_ALL_SET_BY_USER "TRUE")
+set(CPACK_COMPONENT_GROUP_JK2SP_BOLD_TITLE "FALSE")
+set(CPACK_COMPONENT_GROUP_JK2SP_DESCRIPTION "Jedi Outcast single player game")
+set(CPACK_COMPONENT_GROUP_JK2SP_DISPLAY_NAME "Jedi Outcast Single Player")
+set(CPACK_COMPONENT_GROUP_JK2SP_EXPANDED "FALSE")
+set(CPACK_COMPONENT_GROUP_JKAMP_BOLD_TITLE "FALSE")
+set(CPACK_COMPONENT_GROUP_JKAMP_DESCRIPTION "Jedi Academy multiplayer game")
+set(CPACK_COMPONENT_GROUP_JKAMP_DISPLAY_NAME "Jedi Academy Multiplayer")
+set(CPACK_COMPONENT_GROUP_JKAMP_EXPANDED "FALSE")
+set(CPACK_COMPONENT_GROUP_JKASP_BOLD_TITLE "FALSE")
+set(CPACK_COMPONENT_GROUP_JKASP_DESCRIPTION "Jedi Academy single player game")
+set(CPACK_COMPONENT_GROUP_JKASP_DISPLAY_NAME "Jedi Academy Single Player")
+set(CPACK_COMPONENT_GROUP_JKASP_EXPANDED "FALSE")
+set(CPACK_COMPONENT_JK2SPCLIENT_DESCRIPTION "Files required to play the Jedi Outcast single player game.")
+set(CPACK_COMPONENT_JK2SPCLIENT_DISPLAY_NAME "Core")
+set(CPACK_COMPONENT_JK2SPCLIENT_GROUP "JK2SP")
+set(CPACK_COMPONENT_JKAMPCLIENT_DESCRIPTION "Files required to play the multiplayer game.")
+set(CPACK_COMPONENT_JKAMPCLIENT_DISPLAY_NAME "Client")
+set(CPACK_COMPONENT_JKAMPCLIENT_GROUP "JKAMP")
+set(CPACK_COMPONENT_JKAMPCORE_DESCRIPTION "Core files shared by the multiplayer client and server executables.")
+set(CPACK_COMPONENT_JKAMPCORE_DISPLAY_NAME "Core")
+set(CPACK_COMPONENT_JKAMPCORE_GROUP "JKAMP")
+set(CPACK_COMPONENT_JKAMPCORE_REQUIRED "TRUE")
+set(CPACK_COMPONENT_JKAMPSERVER_DESCRIPTION "Files required to run a Jedi Academy server.")
+set(CPACK_COMPONENT_JKAMPSERVER_DISPLAY_NAME "Server")
+set(CPACK_COMPONENT_JKAMPSERVER_GROUP "JKAMP")
+set(CPACK_COMPONENT_JKASPCLIENT_DESCRIPTION "Files required to play the Jedi Academy single player game.")
+set(CPACK_COMPONENT_JKASPCLIENT_DISPLAY_NAME "Core")
+set(CPACK_COMPONENT_JKASPCLIENT_GROUP "JKASP")
+set(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
+set(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
+set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE "C:/Program Files/CMake/share/cmake-4.4/Templates/CPack.GenericDescription.txt")
+set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "OpenJK built using CMake")
+set(CPACK_GENERATOR "NSIS;ZIP")
+set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY "0")
+set(CPACK_INNOSETUP_ARCHITECTURE "x86")
+set(CPACK_INSTALL_CMAKE_PROJECTS "D:/game/onedaycode/openjk/build;OpenJK;ALL;/")
+set(CPACK_INSTALL_PREFIX "C:/Program Files (x86)/OpenJK")
+set(CPACK_MODULE_PATH "D:/Game/OneDayCode/OpenJK/cmake/Modules")
+set(CPACK_NSIS_CREATE_ICONS_EXTRA "
+			CreateShortCut '$SMPROGRAMS\\$STARTMENU_FOLDER\\Jedi Academy MP.lnk' \\
+				'$INSTDIR\\openjk.x86.exe' \\
+				'' \\
+				'D:\\Game\\OneDayCode\\OpenJK\\codemp\\win32\\icon.ico'
+			CreateShortCut '$SMPROGRAMS\\$STARTMENU_FOLDER\\Jedi Academy SP.lnk' \\
+				'$INSTDIR\\openjk_sp.x86.exe' \\
+				'' \\
+				'D:\\Game\\OneDayCode\\OpenJK\\code\\win32\\starwars.ico'")
+set(CPACK_NSIS_DELETE_ICONS_EXTRA "
+			Delete '$SMPROGRAMS\\$MUI_TEMP\\Jedi Academy MP.lnk'
+			Delete '$SMPROGRAMS\\$MUI_TEMP\\Jedi Academy SP.lnk'")
+set(CPACK_NSIS_DISPLAY_NAME "OpenJK")
+set(CPACK_NSIS_DISPLAY_NAME_SET "TRUE")
+set(CPACK_NSIS_INSTALLER_ICON_CODE "")
+set(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")
+set(CPACK_NSIS_INSTALL_ROOT "$PROGRAMFILES")
+set(CPACK_NSIS_MUI_ICON "D:/Game/OneDayCode/OpenJK/shared/icons/icon.ico")
+set(CPACK_NSIS_MUI_UNIICON "D:/Game/OneDayCode/OpenJK/shared/icons/icon.ico")
+set(CPACK_NSIS_PACKAGE_NAME "OpenJK")
+set(CPACK_NSIS_UNINSTALL_NAME "Uninstall")
+set(CPACK_NSIS_URL_INFO_ABOUT "https://openjk.org")
+set(CPACK_OUTPUT_CONFIG_FILE "D:/game/onedaycode/openjk/build/CPackConfig.cmake")
+set(CPACK_PACKAGE_DEFAULT_LOCATION "/")
+set(CPACK_PACKAGE_DESCRIPTION_FILE "C:/Program Files/CMake/share/cmake-4.4/Templates/CPack.GenericDescription.txt")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "An improved Jedi Academy")
+set(CPACK_PACKAGE_FILE_NAME "OpenJK-Windows-x86")
+set(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenJK")
+set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenJK")
+set(CPACK_PACKAGE_NAME "OpenJK")
+set(CPACK_PACKAGE_RELOCATABLE "true")
+set(CPACK_PACKAGE_VENDOR "JACoders")
+set(CPACK_PACKAGE_VERSION "1.0.0")
+set(CPACK_PACKAGE_VERSION_MAJOR "1")
+set(CPACK_PACKAGE_VERSION_MINOR "0")
+set(CPACK_PACKAGE_VERSION_PATCH "0")
+set(CPACK_PRODUCTBUILD_DOMAINS "ON")
+set(CPACK_RESOURCE_FILE_LICENSE "D:/Game/OneDayCode/OpenJK/LICENSE.txt")
+set(CPACK_RESOURCE_FILE_README "D:/Game/OneDayCode/OpenJK/README.md")
+set(CPACK_RESOURCE_FILE_WELCOME "C:/Program Files/CMake/share/cmake-4.4/Templates/CPack.GenericWelcome.txt")
+set(CPACK_SET_DESTDIR "OFF")
+set(CPACK_SOURCE_7Z "ON")
+set(CPACK_SOURCE_GENERATOR "7Z;ZIP")
+set(CPACK_SOURCE_OUTPUT_CONFIG_FILE "D:/game/onedaycode/openjk/build/CPackSourceConfig.cmake")
+set(CPACK_SOURCE_ZIP "ON")
+set(CPACK_SYSTEM_NAME "win32")
+set(CPACK_THREADS "1")
+set(CPACK_TOPLEVEL_TAG "win32")
+set(CPACK_WIX_INSTALL_SCOPE "perMachine")
+set(CPACK_WIX_SIZEOF_VOID_P "4")
+
+if(NOT CPACK_PROPERTIES_FILE)
+  set(CPACK_PROPERTIES_FILE "D:/game/onedaycode/openjk/build/CPackProperties.cmake")
+endif()
+
+if(EXISTS ${CPACK_PROPERTIES_FILE})
+  include(${CPACK_PROPERTIES_FILE})
+endif()
